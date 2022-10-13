@@ -65,9 +65,10 @@ img-overlay>* {
     z-index: 0;
 }
 
-.NFT-img:hover {
+.NFT-img:hover , .eye-icon{
+    display: block;
     opacity: 0.5;
-    background-color: var(--Cyan);
+    /* background-color: var(--Cyan); */
 }
 
 .img-overlay:is(:hover, :focus)>.eye-icon {
