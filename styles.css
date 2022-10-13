@@ -27,18 +27,20 @@ body{
 }
 
 article{
-    margin: 5% 0;
+    margin: 4% 0;
     max-width: 22rem;
-    height: auto;
+    height: max-content;
     border-radius: 2%;
     background: var(--Very-dark-blue2);
 }
 
-img,svg{
+img{
     display: block;
     width: 100%;
-    height: auto;
+    height: 38vh;
+    object-fit:cover;
 }
+
 
 .top{
     color: var(--Very-dark-blue);
@@ -91,6 +93,7 @@ h1:hover{
     font-family: inherit;
     color: var(--Soft-blue);
     line-height: 1.5rem;
+    margin-bottom: 1%;
 }
 
 .middle{
@@ -102,14 +105,15 @@ h1:hover{
     padding: 0 5%;
 }
 
-.svg{
-    max-width: 12px;
+.svg {
+    width: 15px;
+    height: auto;
 }
 
 .svg2{
     width: 20px;
+    height: auto;
 }
-
 
 .price{
     color: var(--Cyan);
@@ -138,6 +142,7 @@ h1:hover{
 
 .owner-img{
     width: 12%;
+    height: auto;
     border: 2px solid var(--Soft-blue);
     border-radius: 50%;
 }
