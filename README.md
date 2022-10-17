@@ -1,5 +1,7 @@
 ## NFT-card-component
+
 [Live site here](https://shahbaazx786.github.io/NFT-card-component/)
+
 ![screenshot1](./assets/desktop-design.jpg)
 
 Concepts Learnt & Used:
